@@ -1,13 +1,92 @@
-img {
-    float:left;
-    margin: 1%;
-    padding: 1%;
+
+/*Body styling */
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.wrapperNav {
+    background-color: #ffffff;
+    align-content:center;
+    border: 1px solid #cccc;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.box{
-      width: 29.33%
-    margin: 1%;
-    padding: 1%;
-    height: 120;
-    background: aqua;
+/* Style the top name banner */
+.topNav h1 {
+    float: left;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #f2f2f2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 2%;
+    width: max;
+    margin-top: 0;
+    margin-right: -5%;
+    padding: 2% 2%;
+    font-size: 100%;
+    }
+
+/* Style the top nav links */
+.topNav a {
+    float: right;
+    color: #777777;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 2% 2%;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Change the color of links on hover */
+  .topNav a:hover {
+    color: #4BAB76;
+}
+
+/*Positioning content*/
+.wrapper {
+    position: relative;
+    background-color: #ffffff
+    border-color: 1px solid #dddddd;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+      
+}
+
+#.container{
+    float: left;
+    background-color: blue;
+}
+
+img {
+    float:left;
+    opacity: 0.9;
+    margin: 10px;
+    position: relative;
+}
+
+img:hover{
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/* Footer positioning */
+#bottom {
+    position: relative;
+    background-color: #666666;
+    color: #fff;
+    text-align: center;
+    margin-top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    padding: 2% 2%;  
+    clear: both;
+}
+
+.clearfix {
+overflow: auto;
 }
