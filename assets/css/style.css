@@ -1,0 +1,13 @@
+img {
+    float:left;
+    margin: 1%;
+    padding: 1%;
+}
+
+.box{
+      width: 29.33%
+    margin: 1%;
+    padding: 1%;
+    height: 120;
+    background: aqua;
+}

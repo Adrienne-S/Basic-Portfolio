@@ -1,0 +1,10 @@
+.topnav {
+float: left;
+font-color: #777777;
+}
+
+.wrapper {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+  }
