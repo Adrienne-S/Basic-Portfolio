@@ -3,8 +3,10 @@
 body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/interlaced.png);
+    background-size: cover;
 }
-  
+
 .wrapperNav {
     background-color: #ffffff;
     align-content:center;
