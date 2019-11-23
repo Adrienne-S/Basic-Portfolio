@@ -1,68 +1,72 @@
-body {
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    line-height: 34px;
-    background: url(../images/interlaced.png);
-}
-* {
-    box-sizing: border-box;
-}
-.container {
-    clear: both;
-    max-width: 960px;
-    margin: 0 auto;
-    width: 100%;
+    body {
+        color: #777777;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        line-height: 34px;
+        background: url(../images/interlaced.png);
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        clear: both;
+        max-width: 960px;
+        margin: 0 auto;
+        width: 100%;
 }
 
 .container a {
     color: #777777;
-    margin-left: 30x;
     padding-left: 30px;
     font-size: 15px;
     text-decoration: none;
     display: inline-block;
     line-height: 18px;
     }
-/* Style the top name banner */
-#name {
-    float: left;
-    width: 220px;
-    height: 90px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ffffff;
-    text-align: center;
-    line-height: 80px;
-    font-size: 23px;
-    background: #4aaaa5;
-}
 
-/*Header position*/
+    /* Style the top name banner */
+    #name {
+        float: left;
+        width: 220px;
+        height: 90px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #ffffff;
+        text-align: center;
+        line-height: 80px;
+        font-size: 24px;
+        font-weight: 600;
+        background: #4aaaa5;
+    }
+
+    /*Header position*/
 #topNav {
     position: absolute;
-    margin: 0 0 30px;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
-    max-width: 960px;
-    z-index: 1;
+    width: 100%;
+    
 }
-
-/* Style the top nav links */
+    
+    /* Style the top nav links */
 nav{
     float: right;
     margin-top: 32px;
+    max-width: 960px;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 600;
 }
  
-/* Change the color of links on hover */
+    /* Change the color of links on hover */
   .container a:hover {
     color: #4BAB76;
 }
 
-.middle h1{
+.middle h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-weight: 600; 
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 23px;
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
@@ -80,27 +84,86 @@ img:hover{
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-/*Main section*/
-#container2{
-    padding-top: 130px;
+    /*Main section*/
+#wrapper{
+    padding-top: 122px;
 }
 .middle{
     float: left;
     background: #ffffff;
     width: 70%;
-    margin: 00 40px 0;
+    margin: 25px 40px 50px;
     padding: 30px;
     border: 1px solid #dddddd;
 }
-/* Footer positioning */
+    /* Footer positioning */
 footer {
     position: relative;
     background-color: #666666;
     color: #fff;
     text-align: center;
     font-size: .9em;
-    padding: 25px 0;  
+    padding: 10px 0 0;  
     border-top: 8px solid #4aaaa5;
+    vertical-align: -80px;
     clear: both;
 }
 
+    /*Portfolio page styling*/
+.portfolio {
+      position: relative;
+      width: 184px;
+      overflow: hidden;
+      float: left;
+      margin: 20px 0 25px;
+    }
+.portfolio:nth-child(even) {
+      margin-right: 30px;
+    }
+.portfolio img {
+      width: 100%;
+      border: 0 none;
+      opacity: 0.9;
+    }
+.portfolio h3 {
+      position: absolute;
+      bottom: 20px;
+      margin-bottom: 0;
+      padding: 15px;
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      font-weight: 300;
+      background: #4aaaa5;
+      border-bottom: 0;
+    }
+
+        /*Contact page styling*/
+    label,
+    input[type=text],
+        input[type=email],
+        textarea {
+        display: block;
+         width: 100%;
+    }
+    input[type=text],
+    input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  textarea {
+    height: 200px;
+  }
+  /*Submit button*/
+  input[type=submit] {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
