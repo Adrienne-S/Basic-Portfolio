@@ -1,18 +1,18 @@
-    body {
-        color: #777777;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        line-height: 34px;
-        background: url(../images/interlaced.png);
-    }
-    * {
-        box-sizing: border-box;
-    }
-    .container {
-        clear: both;
-        max-width: 960px;
-        margin: 0 auto;
-        width: 100%;
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 34px;
+    background: url(../images/interlaced.png);
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    clear: both;
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
 }
 
 .container a {
@@ -25,17 +25,17 @@
     }
 
     /* Style the top name banner */
-    #name {
-        float: left;
-        width: 220px;
-        height: 90px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: #ffffff;
-        text-align: center;
-        line-height: 80px;
-        font-size: 24px;
-        font-weight: 600;
-        background: #4aaaa5;
+#name {
+    float: left;
+    width: 220px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    background: #4aaaa5;
     }
 
     /*Header position*/
@@ -73,10 +73,10 @@ nav{
 }
 
 img {
+    position: relative;
     float:left;
     opacity: 0.9;
     margin: 10px;
-    position: relative;
 }
 
 img:hover{
@@ -111,45 +111,47 @@ footer {
 
     /*Portfolio page styling*/
 .portfolio {
-      position: relative;
-      width: 272px;
-      overflow: hidden;
-      float: left;
-      margin: 20px 0 25px;
-    }
+    position: relative;
+    width: 274px;
+    float: left;
+    margin: 20px 0;
+}
 .portfolio:nth-child(even) {
-      margin-right: 30px;
-    }
+    margin-right: 40px;
+}
 .portfolio img {
-      width: 100%;
-      border: 0 none;
-      opacity: 0.9;
-    }
+    width: 100%;
+    height: 100%;
+    border: 0 none;
+    opacity: 0.9;
+}
 .portfolio h3 {
-      position: absolute;
-      bottom: 20px;
-      margin-bottom: 0;
-      padding: 15px;
-      width: 100%;
-      color: #fff;
-      text-align: center;
-      line-height: 30px;
-      font-weight: 300;
-      background: #4aaaa5;
-      border-bottom: 0;
+    position: absolute;
+    color: #ffffff;
+    background: #4aaaa5;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 15px;
+    bottom: 20px;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding: 15px;
+    width: 100%;  
+}
+
+
+    /*Contact page styling*/
+label,input[type=text],
+    input[type=email],
+    textarea {
+    display: block;
+    width: 100%;
     }
 
-        /*Contact page styling*/
-    label,
-    input[type=text],
-        input[type=email],
-        textarea {
-        display: block;
-         width: 100%;
-    }
     input[type=text],
     input[type=email],
-  textarea {
+    textarea {
     height: 35px;
     padding: 0 10px;
     font-size: 14px;
@@ -158,7 +160,7 @@ footer {
   textarea {
     height: 200px;
   }
-  /*Submit button*/
+    /*Submit button*/
   input[type=submit] {
     padding: 10px 30px;
     color: #fff;
